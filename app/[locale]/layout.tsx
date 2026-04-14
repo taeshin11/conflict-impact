@@ -6,8 +6,29 @@ import type { Metadata } from 'next'
 import '../globals.css'
 
 export const metadata: Metadata = {
-  title: 'Conflict Impact — Civilian Infrastructure Disruption Dashboard',
-  description: 'Track damage to hospitals, schools, power, water and telecom in active conflicts worldwide.',
+  title: {
+    default: 'Conflict Impact | Real-Time Intelligence',
+    template: '%s | Conflict Impact'
+  },
+  description: 'Measuring the human, economic, and infrastructure impact of ongoing armed conflicts worldwide',
+  keywords: 'conflict impact, war casualties, war damage, economic impact of war, humanitarian crisis',
+  openGraph: {
+    type: 'website',
+    siteName: 'Conflict Impact',
+    title: 'Conflict Impact | Real-Time Intelligence',
+    description: 'Measuring the human, economic, and infrastructure impact of ongoing armed conflicts worldwide',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Conflict Impact',
+    description: 'Measuring the human, economic, and infrastructure impact of ongoing armed conflicts worldwide',
+  },
+  verification: {
+    google: 'add-your-google-site-verification-here',
+  },
+  other: {
+    'google-adsense-account': 'ca-pub-add-your-publisher-id-here',
+  },
 }
 
 export default async function LocaleLayout({
