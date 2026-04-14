@@ -1,0 +1,8 @@
+{
+  "home": {"title":"紛争の影響","subtitle":"民間インフラ被害ダッシュボード","description":"活動中の紛争における病院、学校、電力、水、通信の被害を追跡"},
+  "sectors": {"hospitals":"病院","schools":"学校","power":"電力","water":"水道","telecom":"通信","all":"全分野"},
+  "severity": {"critical":"危機的","severe":"深刻","moderate":"中程度","limited":"限定的"},
+  "filter": {"all_countries":"全国","all_sectors":"全分野"},
+  "footer": {"tagline":"民間インフラ被害の追跡","today_visits":"今日","total_visits":"合計"},
+  "nav": {"home":"ホーム","about":"概要"}
+}

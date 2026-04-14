@@ -1,0 +1,8 @@
+{
+  "home": {"title":"Impact du Conflit","subtitle":"Tableau de Bord des Perturbations des Infrastructures Civiles","description":"Suivre les dommages aux hôpitaux, écoles, énergie, eau et télécommunications dans les conflits actifs"},
+  "sectors": {"hospitals":"Hôpitaux","schools":"Écoles","power":"Énergie","water":"Eau","telecom":"Télécommunications","all":"Tous les Secteurs"},
+  "severity": {"critical":"Critique","severe":"Sévère","moderate":"Modéré","limited":"Limité"},
+  "filter": {"all_countries":"Tous les Pays","all_sectors":"Tous les Secteurs"},
+  "footer": {"tagline":"Suivi des perturbations des infrastructures civiles","today_visits":"Aujourd'hui","total_visits":"Total"},
+  "nav": {"home":"Accueil","about":"À Propos"}
+}

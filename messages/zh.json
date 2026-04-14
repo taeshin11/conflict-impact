@@ -1,0 +1,8 @@
+{
+  "home": {"title":"冲突影响","subtitle":"平民基础设施破坏仪表板","description":"追踪活跃冲突中医院、学校、电力、水和电信的破坏情况"},
+  "sectors": {"hospitals":"医院","schools":"学校","power":"电力","water":"水","telecom":"电信","all":"所有领域"},
+  "severity": {"critical":"危急","severe":"严重","moderate":"中度","limited":"有限"},
+  "filter": {"all_countries":"所有国家","all_sectors":"所有领域"},
+  "footer": {"tagline":"追踪平民基础设施破坏","today_visits":"今日","total_visits":"总计"},
+  "nav": {"home":"首页","about":"关于"}
+}

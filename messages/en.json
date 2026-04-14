@@ -1,0 +1,8 @@
+{
+  "home": {"title":"Conflict Impact","subtitle":"Civilian Infrastructure Disruption Dashboard","description":"Track damage to hospitals, schools, power, water and telecom in active conflicts"},
+  "sectors": {"hospitals":"Hospitals","schools":"Schools","power":"Power","water":"Water","telecom":"Telecom","all":"All Sectors"},
+  "severity": {"critical":"Critical","severe":"Severe","moderate":"Moderate","limited":"Limited"},
+  "filter": {"all_countries":"All Countries","all_sectors":"All Sectors"},
+  "footer": {"tagline":"Tracking civilian infrastructure disruption","today_visits":"Today","total_visits":"Total"},
+  "nav": {"home":"Home","about":"About"}
+}

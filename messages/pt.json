@@ -1,0 +1,8 @@
+{
+  "home": {"title":"Impacto do Conflito","subtitle":"Painel de Interrupções na Infraestrutura Civil","description":"Rastrear danos a hospitais, escolas, energia, água e telecomunicações em conflitos ativos"},
+  "sectors": {"hospitals":"Hospitais","schools":"Escolas","power":"Energia","water":"Água","telecom":"Telecomunicações","all":"Todos os Setores"},
+  "severity": {"critical":"Crítico","severe":"Severo","moderate":"Moderado","limited":"Limitado"},
+  "filter": {"all_countries":"Todos os Países","all_sectors":"Todos os Setores"},
+  "footer": {"tagline":"Rastreando interrupções na infraestrutura civil","today_visits":"Hoje","total_visits":"Total"},
+  "nav": {"home":"Início","about":"Sobre"}
+}

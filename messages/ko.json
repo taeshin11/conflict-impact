@@ -1,0 +1,8 @@
+{
+  "home": {"title":"분쟁 영향","subtitle":"민간 인프라 피해 대시보드","description":"활성 분쟁에서 병원, 학교, 전력, 수도, 통신 피해 추적"},
+  "sectors": {"hospitals":"병원","schools":"학교","power":"전력","water":"수도","telecom":"통신","all":"전체 분야"},
+  "severity": {"critical":"위험","severe":"심각","moderate":"중간","limited":"제한"},
+  "filter": {"all_countries":"모든 국가","all_sectors":"모든 분야"},
+  "footer": {"tagline":"민간 인프라 피해 추적","today_visits":"오늘","total_visits":"전체"},
+  "nav": {"home":"홈","about":"소개"}
+}

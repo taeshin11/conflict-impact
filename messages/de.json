@@ -1,0 +1,8 @@
+{
+  "home": {"title":"Konflikt-Auswirkungen","subtitle":"Dashboard für zivile Infrastrukturstörungen","description":"Schäden an Krankenhäusern, Schulen, Strom, Wasser und Telekommunikation in aktiven Konflikten verfolgen"},
+  "sectors": {"hospitals":"Krankenhäuser","schools":"Schulen","power":"Strom","water":"Wasser","telecom":"Telekommunikation","all":"Alle Sektoren"},
+  "severity": {"critical":"Kritisch","severe":"Schwer","moderate":"Moderat","limited":"Begrenzt"},
+  "filter": {"all_countries":"Alle Länder","all_sectors":"Alle Sektoren"},
+  "footer": {"tagline":"Verfolgung ziviler Infrastrukturstörungen","today_visits":"Heute","total_visits":"Gesamt"},
+  "nav": {"home":"Start","about":"Über uns"}
+}
