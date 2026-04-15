@@ -5,6 +5,8 @@ import { getMessages } from 'next-intl/server'
 import type { Metadata } from 'next'
 import '../globals.css'
 import { FeedbackButton } from '@/components/FeedbackButton'
+import Script from 'next/script'
+import AdMobileSticky from '@/components/ads/AdMobileSticky'
 
 export const metadata: Metadata = {
   title: {
@@ -25,10 +27,10 @@ export const metadata: Metadata = {
     description: 'Measuring the human, economic, and infrastructure impact of ongoing armed conflicts worldwide',
   },
   verification: {
-    google: 'add-your-google-site-verification-here',
+    google: 'WddgcbVJsL2BGHNAje5m6DK56IcR0Mw5UOqozI2Xtrc',
   },
   other: {
-    'google-adsense-account': 'ca-pub-add-your-publisher-id-here',
+    'google-adsense-account': 'ca-pub-7098271335538021',
   },
 }
 
@@ -67,7 +69,14 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
-        <FeedbackButton siteName="Conflict Impact" siteUrl="https://conflict-impact.vercel.app" />
+        <AdMobileSticky />
+      <FeedbackButton siteName="Conflict Impact" siteUrl="https://conflict-impact.vercel.app" />
+      <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7098271335538021"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )
